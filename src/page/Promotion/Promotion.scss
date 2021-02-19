@@ -1,0 +1,47 @@
+.promo-card {
+  background: linear-gradient(
+    to right,
+    #bf953f,
+    #fcf6ba,
+    #b38728,
+    #fbf5b7,
+    #aa771c
+  );
+  padding: 1px;
+  margin-bottom: 1rem;
+}
+.promo-card-inner {
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+  background: url("../../assests/common/promo-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.promo-title {
+  color: #fff;
+}
+.promo-details {
+  color: #acacac;
+}
+.promo-btn {
+  width: 6rem;
+  height: 2rem;
+  padding: 1px;
+  background: linear-gradient(to right, #fcf6ba, #bf953f);
+  button {
+    width: 100%;
+    height: 100%;
+    background: #111;
+    color: #fff;
+    outline: none;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .promo-btn {
+    width: 100%;
+  }
+}

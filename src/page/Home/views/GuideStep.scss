@@ -1,0 +1,75 @@
+.guide-container {
+  background: linear-gradient(
+    to right,
+    #bf953f,
+    #fcf6ba,
+    #b38728,
+    #fbf5b7,
+    #aa771c
+  );
+  padding: 1px;
+}
+.guide-inner {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #131313,
+    #000000,
+    #131313
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #131313,
+    #000000,
+    #131313
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+}
+.guide-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  min-height: 100%;
+}
+.guide-step {
+  font-size: 3.5rem;
+  color: #fff;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+.guide-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.guide-title {
+  font-size: 1.5rem;
+
+  color: gold;
+  font-weight: bold;
+}
+.guide-content {
+  color: #acacac;
+}
+@media screen and (max-width: 768px) {
+  .guide-card {
+    width: 100%;
+    padding: 1rem;
+    .guide-step {
+      width: 15%;
+      margin-right: 0;
+      font-size: 2rem;
+    }
+    .guide-wrapper {
+      width: 85%;
+    }
+  }
+  .guide-inner {
+    flex-wrap: wrap;
+  }
+}
