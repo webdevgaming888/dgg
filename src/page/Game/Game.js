@@ -119,16 +119,16 @@ const Game = ({ t }) => {
         <title>{window.compName} - Games</title>
         <meta
           name="description"
-          content="DIGIGO88 Best Slots Machine, and games to win"
+          content="DigiGo88 Best Slots Machine, and games to win"
         />
         <link rel="canonical" href="https://digigo88.net/games" />
         <meta property="og:title" content={window.compName} />
-        <meta property="og:description" content="DIGIGO88 Best Slots Machine, and games to win"
+        <meta property="og:description" content="DigiGo88 Best Slots Machine, and games to win"
         />
         <meta property="og:image" content={logo} />
         <meta property="og:url" content="https://digigo88.net/games"/>
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image:alt" content="DIGIGO88" />
+        <meta name="twitter:image:alt" content="DigiGo88" />
       </Helmet>
       <section className="game-page">
         <h2 className="page-title"> {t("game")}</h2>

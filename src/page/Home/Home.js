@@ -94,18 +94,18 @@ const Home = ({ t }) => {
         <title>{window.compName}</title>
         <meta
           name="description"
-          content="DIGIGO88 is one of the leading online betting sites in Malaysia"
+          content="DigiGo88 is one of the leading online betting sites in Malaysia"
         />
         <link rel="canonical" href="https://digigo88.net/" />
         <meta property="og:title" content={window.compName} />
         <meta
           property="og:description"
-          content="DIGIGO88 is one of the leading online betting sites in Malaysia"
+          content="DigiGo88 is one of the leading online betting sites in Malaysia"
         />
         <meta property="og:image" content={logo} />
         <meta property="og:url" content="https://digigo88.net/" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image:alt" content="DIGIGO88" />
+        <meta name="twitter:image:alt" content="DigiGo88" />
       </Helmet>
       <section className="homepage">
         <Banner banner={banner} />

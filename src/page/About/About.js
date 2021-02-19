@@ -11,16 +11,16 @@ const About = ({ t }) => {
         <title>{window.compName} - About Us</title>
         <meta
           name="description"
-          content="DIGIGO88 is one of the leading online betting sites in Malaysia, and provide 24hour support just for you"
+          content="DigiGo88 is one of the leading online betting sites in Malaysia, and provide 24hour support just for you"
         />
         <link rel="canonical" href="https://digigo88.net/about" />
         <meta property="og:title" content={window.compName} />
-        <meta property="og:description" content="DIGIGO88 Welcome Bonus 50%! Trusted Company! Support Digi/Maxis! 24HOUR SUPPORT!"
+        <meta property="og:description" content="DigiGo88 Welcome Bonus 50%! Trusted Company! Support Digi/Maxis! 24HOUR SUPPORT!"
         />
         <meta property="og:image" content={logo} />
         <meta property="og:url" content="https://digigo88.net/about"/>
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image:alt" content="DIGIGO88" />
+        <meta name="twitter:image:alt" content="DigiGo88" />
       </Helmet>
       <section className="about-page">
         <h2 className="page-title">{t("about")}</h2>

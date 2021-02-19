@@ -75,7 +75,7 @@ const Bank = ({ t }) => {
         <meta property="og:image" content={logo} />
         <meta property="og:url" content="https://digigo88.net/bank"/>
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image:alt" content="DIGIGO88" />
+        <meta name="twitter:image:alt" content="DigiGo88" />
       </Helmet>
       <section className="bank-page">
         <h2 className="page-title">{t("bank")}</h2>

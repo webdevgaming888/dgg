@@ -43,7 +43,7 @@ const Promotion = ({t}) => {
         <meta property="og:image" content={logo} />
         <meta property="og:url" content="https://digigo88.net/promotion"/>
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image:alt" content="DIGIGO88" />
+        <meta name="twitter:image:alt" content="DigiGo88" />
       </Helmet>
     <section className="promo-page">
       <h2 className="page-title"> {t("promotion")}</h2>
