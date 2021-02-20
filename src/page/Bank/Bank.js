@@ -53,11 +53,7 @@ const Bank = ({ t }) => {
     {
       name: "Boost",
       src: Boost,
-    },
-    {
-      name: "SarawakPay",
-      src: SarawakPay,
-    },
+    }
   ]);
   return (
     <>
