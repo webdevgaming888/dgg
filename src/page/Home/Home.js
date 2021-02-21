@@ -91,16 +91,16 @@ const Home = ({ t }) => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>{window.compName}</title>
+        <title>{window.compName} | Best Online Casino Malaysia | 918KISS</title>
         <meta
           name="description"
-          content="DigiGo88 is one of the leading online betting sites in Malaysia"
+          content="DigiGo88 is the best online casino Malaysia! Welcome Bonus 50%! Trusted Company! Support Digi/Maxis! 24HOUR SUPPORT!"
         />
         <link rel="canonical" href="https://digigo88.net/" />
         <meta property="og:title" content={window.compName} />
         <meta
           property="og:description"
-          content="DigiGo88 is one of the leading online betting sites in Malaysia"
+          content="DigiGo88 is the best online casino Malaysia! Welcome Bonus 50%! Trusted Company! Support Digi/Maxis! 24HOUR SUPPORT!"
         />
         <meta property="og:image" content={logo} />
         <meta property="og:url" content="https://digigo88.net/" />
