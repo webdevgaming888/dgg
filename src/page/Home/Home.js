@@ -5,8 +5,10 @@ import banner1 from "../../assests/banner/01.jpg";
 import banner2 from "../../assests/banner/02.jpg";
 import banner3 from "../../assests/banner/03.jpg";
 import banner0 from "../../assests/banner/04.jpeg";
+import ModalImg from "../../assests/common/modal1.jpeg";
 import GuideStep from "./views/GuideStep";
 import WinnerList from "./views/WinnerList";
+import ModalComponent from "../../components/Modal/Modal";
 import { withNamespaces } from "react-i18next";
 import { Helmet } from "react-helmet";
 import logo from "../../assests/navigationbar/logo.jpg";
@@ -36,6 +38,7 @@ const Home = ({ t }) => {
   ]);
   const [winnerList, setWinnerList] = useState([]);
   const [depositList, setDepositList] = useState([]);
+  const [modalShow, setModalShow] = useState(false);
   useEffect(() => {
     let arr = [];
     let depositArr = [];
@@ -76,17 +79,9 @@ const Home = ({ t }) => {
     }
     setWinnerList({ arr });
     setDepositList({ depositArr });
+    setModalShow(true)
   }, []);
-
-  // function randomTime(start, end) {
-  //   // get the difference between the 2 dates, multiply it by 0-1,
-  //   // and add it to the start date to get a new date
-  //   var diff = end.getTime() - start.getTime();
-  //   var new_diff = diff * Math.random();
-  //   var date = new Date(start.getTime() + new_diff);
-  //   return date;
-  // }
-
+  console.log(modalShow)
   return (
     <>
       <Helmet>
@@ -107,6 +102,8 @@ const Home = ({ t }) => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image:alt" content="DigiGo88" />
       </Helmet>
+
+     {modalShow && <ModalComponent onHide={() => setModalShow(false)} imgSrc={ModalImg}/>} 
       <section className="homepage">
         <Banner banner={banner} />
         <GuideStep guide={guide} />
