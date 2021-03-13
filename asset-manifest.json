@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.e687f156.chunk.css",
-    "main.js": "/static/js/main.e567e07f.chunk.js",
-    "main.js.map": "/static/js/main.e567e07f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.34711f96.js",
-    "runtime-main.js.map": "/static/js/runtime-main.34711f96.js.map",
+    "main.css": "/static/css/main.7cf0cb69.chunk.css",
+    "main.js": "/static/js/main.d77ecda5.chunk.js",
+    "main.js.map": "/static/js/main.d77ecda5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0cfbfc92.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0cfbfc92.js.map",
     "static/css/2.3021dfe7.chunk.css": "/static/css/2.3021dfe7.chunk.css",
-    "static/js/2.61a6b76e.chunk.js": "/static/js/2.61a6b76e.chunk.js",
-    "static/js/2.61a6b76e.chunk.js.map": "/static/js/2.61a6b76e.chunk.js.map",
-    "static/js/3.fec9d142.chunk.js": "/static/js/3.fec9d142.chunk.js",
-    "static/js/3.fec9d142.chunk.js.map": "/static/js/3.fec9d142.chunk.js.map",
+    "static/js/2.edd0343a.chunk.js": "/static/js/2.edd0343a.chunk.js",
+    "static/js/2.edd0343a.chunk.js.map": "/static/js/2.edd0343a.chunk.js.map",
+    "static/js/3.2bdf83c0.chunk.js": "/static/js/3.2bdf83c0.chunk.js",
+    "static/js/3.2bdf83c0.chunk.js.map": "/static/js/3.2bdf83c0.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.3021dfe7.chunk.css.map": "/static/css/2.3021dfe7.chunk.css.map",
-    "static/css/main.e687f156.chunk.css.map": "/static/css/main.e687f156.chunk.css.map",
-    "static/js/2.61a6b76e.chunk.js.LICENSE.txt": "/static/js/2.61a6b76e.chunk.js.LICENSE.txt",
+    "static/css/main.7cf0cb69.chunk.css.map": "/static/css/main.7cf0cb69.chunk.css.map",
+    "static/js/2.edd0343a.chunk.js.LICENSE.txt": "/static/js/2.edd0343a.chunk.js.LICENSE.txt",
     "static/media/01.7f9abdc2.jpg": "/static/media/01.7f9abdc2.jpg",
     "static/media/02.d11b02bc.jpg": "/static/media/02.d11b02bc.jpg",
     "static/media/03.8d25f1be.jpg": "/static/media/03.8d25f1be.jpg",
@@ -21,16 +21,17 @@
     "static/media/918kiss.19c2831d.png": "/static/media/918kiss.19c2831d.png",
     "static/media/App.css": "/static/media/bg4.dcd6dade.jpg",
     "static/media/logo.193d8037.jpg": "/static/media/logo.193d8037.jpg",
+    "static/media/modal1.aad60968.jpeg": "/static/media/modal1.aad60968.jpeg",
     "static/media/Promotion.scss": "/static/media/promo-bg.ae0c37ad.jpg",
     "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf",
     "static/media/WinnerList.scss": "/static/media/titlebanner.d32def6a.jpg",
     "static/media/trophy.ce4c7856.png": "/static/media/trophy.ce4c7856.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.34711f96.js",
+    "static/js/runtime-main.0cfbfc92.js",
     "static/css/2.3021dfe7.chunk.css",
-    "static/js/2.61a6b76e.chunk.js",
-    "static/css/main.e687f156.chunk.css",
-    "static/js/main.e567e07f.chunk.js"
+    "static/js/2.edd0343a.chunk.js",
+    "static/css/main.7cf0cb69.chunk.css",
+    "static/js/main.d77ecda5.chunk.js"
   ]
 }
