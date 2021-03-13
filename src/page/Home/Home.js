@@ -81,7 +81,6 @@ const Home = ({ t }) => {
     setDepositList({ depositArr });
     setModalShow(true)
   }, []);
-  console.log(modalShow)
   return (
     <>
       <Helmet>
