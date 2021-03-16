@@ -57,7 +57,7 @@ const Contact = ({ t }) => {
               <div className="contact-title">
                 <FaPhone className="contact-icon" /> <span>Phone</span>
               </div>
-              <div className="contact-details">{window.phone}</div>
+              <div className="contact-details">{window.whatsappNum}</div>
             </div>
           </div>
         </div>
