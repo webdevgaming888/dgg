@@ -18,7 +18,7 @@ const Footer = () => {
     { id: 5, url: "/contact", name: "contact" },
   ]);
   const [contact] = useState([
-    { id: 1, method: "Whatsapp", phoneNo: window.whatsappNum },
+    { id: 1, method: "Whatsapp", phoneNo: window.phone },
     { id: 2, method: "Telegram", phoneNo: "Digigo88" },
   ]);
 

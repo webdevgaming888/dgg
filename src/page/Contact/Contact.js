@@ -44,7 +44,7 @@ const Contact = ({ t }) => {
                 <FaWhatsapp className="contact-icon" />
                 <span>Whatsapp</span>
               </div>
-              <div className="contact-details">{window.whatsappNum}</div>
+              <div className="contact-details">{window.phone}</div>
             </div>
             <div className="contact-col" onClick={telegramLink}>
               <div className="contact-title">
@@ -57,7 +57,7 @@ const Contact = ({ t }) => {
               <div className="contact-title">
                 <FaPhone className="contact-icon" /> <span>Phone</span>
               </div>
-              <div className="contact-details">{window.whatsappNum}</div>
+              <div className="contact-details">{window.phone}</div>
             </div>
           </div>
         </div>
