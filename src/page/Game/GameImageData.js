@@ -9,6 +9,7 @@ import logoMega888 from "../../assests/games/mega888.png";
 import logoNewtown from "../../assests/games/newtown.png";
 import logoPussy888 from "../../assests/games/pussy888.png";
 import logoXE88 from "../../assests/games/xe88.png";
+import logoGreatwall from "../../assests/games/greatwall99.png";
 
 export const kiss = logo918kiss;
 export const kaya = logo918kaya;
@@ -21,3 +22,4 @@ export const mega888 = logoMega888;
 export const newtown = logoNewtown;
 export const pussy888 = logoPussy888;
 export const xe888 = logoXE88;
+export const greatwall = logoGreatwall
