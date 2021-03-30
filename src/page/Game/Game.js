@@ -12,7 +12,8 @@ import {
   newtown,
   pussy888,
   xe888,
-  greatwall
+  greatwall,
+  scr888
 } from "./GameImageData";
 import { withNamespaces } from "react-i18next";
 import { Helmet } from "react-helmet";
@@ -21,6 +22,14 @@ import logo from "../../assests/navigationbar/logo.jpg"
 
 const Game = ({ t }) => {
   const [gameList] = useState([
+    {
+      id: 0,
+      gameName: "SCR888",
+      androidURL: "https://m.hola888.com/",
+      iosURL: "https://m.hola888.com/",
+      agentURL: "",
+      gameLogo: scr888,
+    },
     {
       id: 1,
       gameName: "918KISSPLUS",
@@ -48,8 +57,8 @@ const Game = ({ t }) => {
     {
       id: 4,
       gameName: "MEGA888",
-      androidURL: "http://m.mega385.com/mega/index.html",
-      iosURL: "http://m.mega385.com/mega/index.html",
+      androidURL: "http://mega888download.com/",
+      iosURL: "http://mega888download.com/",
       agentURL: "",
       gameLogo: mega888,
     },
