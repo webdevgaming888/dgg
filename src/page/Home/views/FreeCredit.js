@@ -10,7 +10,7 @@ const FreeCredit = ({t}) => {
         <div className='free-credit' onClick={freeCreditLink}>
             <div className='free-credit-inner'>
                 <span className='free-credit-title'>{t('freeCreditTitle')}</span>
-                <span className='free-credit-desc'>{t('freeCreditDesc')}</span>
+                {/* <span className='free-credit-desc'>{t('freeCreditDesc')}</span> */}
             </div>
         </div>
     )
