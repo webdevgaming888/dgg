@@ -1,0 +1,38 @@
+.free-credit{
+    position: fixed;
+    right: 0;
+    bottom: 25%;
+    background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728);
+    padding: 1px;
+    width: 7rem;
+    cursor: pointer;
+}
+.free-credit-inner{
+    background: #000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+}
+.free-credit-title{
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.free-credit-desc{
+    color: #979797;
+    font-size: .7rem;
+}
+.free-credit-close{
+    color: #fff;
+    position: fixed;
+    bottom: 29.5%;
+    right: 0;
+}
+@media screen and (max-width:768px){
+    .free-credit-close{
+        bottom: 33.5%;
+    }
+}
