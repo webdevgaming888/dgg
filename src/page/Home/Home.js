@@ -12,8 +12,8 @@ import ModalComponent from "../../components/Modal/Modal";
 import { withNamespaces } from "react-i18next";
 import { Helmet } from "react-helmet";
 import logo from "../../assests/navigationbar/logo.jpg";
-import FreeCredit from "./views/FreeCredit";
-import { IoClose } from "react-icons/io5";
+// import FreeCredit from "./views/FreeCredit";
+// import { IoClose } from "react-icons/io5";
 
 const Home = ({ t }) => {
   const [banner] = useState([
@@ -41,10 +41,10 @@ const Home = ({ t }) => {
   const [winnerList, setWinnerList] = useState([]);
   const [depositList, setDepositList] = useState([]);
   const [modalShow, setModalShow] = useState(false);
-  const [showFreeCredit, setShowFreeCredit] = useState(true);
-  const closeFreeCredit = () => {
-    setShowFreeCredit(false)
-  }
+  // const [showFreeCredit, setShowFreeCredit] = useState(true);
+  // const closeFreeCredit = () => {
+  //   setShowFreeCredit(false)
+  // }
   useEffect(() => {
     let arr = [];
     let depositArr = [];
@@ -117,11 +117,11 @@ const Home = ({ t }) => {
             <WinnerList list={winnerList} depositList={depositList} />
           )}
         </div>
-        {showFreeCredit &&  <>
+        {/* {showFreeCredit &&  <>
         <IoClose className='free-credit-close' onClick={closeFreeCredit}/>
         <FreeCredit closeFunction={closeFreeCredit}/>
         </>
-        }
+        } */}
        
       </section>
     </>
